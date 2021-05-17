@@ -5,3 +5,5 @@ function code ($path) {
 		code-insiders.cmd $path
 	}
 }
+
+Set-PSReadlineKeyHandler -Key Tab -Function Complete
